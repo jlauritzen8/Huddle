@@ -1,0 +1,46 @@
+.huddle-logo{
+  padding-left: 30px;
+  padding-top: 30px;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.top-container{
+  background: url("./images/bg-hero-desktop.svg") repeat hsl(193, 100%, 96%);
+  padding-top: 300px;
+  position: relative;
+
+}
+.intro-msg{
+  width: 35%;
+  text-align: left;
+  padding-left: 30px;
+
+
+}
+.illustration-mockups{
+  width: 200px;
+  height:200px;
+  position: absolute;
+  right:30px;
+  top: 70px;
+}
+.try-it-free-button{
+  position: absolute;
+  right: 30px;
+  top: 40px;
+
+}
+.middle-container {
+
+}
+
+body{
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  body{
+    background: blue;
+  }
+}
